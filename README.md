@@ -1,7 +1,7 @@
 # covid19-outbreak-analysis
 
 Data Source:
-``Data Used: https://www.ecdc.europa.eu/en/covid-19/data``
+``https://www.ecdc.europa.eu/en/covid-19/data``
 * Created a data ingestion pipeline to get/copy necessary data (cases, deaths, hospital admissions, testing) from this above website using http connector into the azure data lake everyday midnight at 12am.
 * Built multiple data transformation pipelines using Azure Data Flow, HDInsights pipelines using Hive and Azure Databricks pipelines using PySqark and stored the data in Azure SQL database for downstream analytics.
 * Published the data to Microsoft PowerBI and built auto refreshing dynamic dashboards.
@@ -11,6 +11,7 @@ Data Source:
 
 #### Tech Stack used:
 
+```
 1. Azure DevOps (CI/CD)
 2. Azure Data Factory
 3. Azure Data Lake Gen 2
@@ -20,5 +21,7 @@ Data Source:
 7. Azure SQL database (T-SQL - Transact-SQL)
 8. Azure Monitor/Log Analytics (KQL - Kusto Query Language)
 9. Microsoft PowerBI
+```
 
-// ![alt text](http://url/to/img.png)
+One of the transformation pipeline:
+![alt text]([http://url/to/img.png](https://github.com/Bhuvan421/covid19-outbreak-analysis/blob/8249afabb1ca67274d797ab91580dcd5cc5a60c5/hospital-data-transformation-pipeline.png))

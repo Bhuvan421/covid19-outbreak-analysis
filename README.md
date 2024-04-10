@@ -24,4 +24,5 @@ Data Source:
 ```
 
 One of the transformation pipeline:
+
 ![alt text](hospital-data-transformation-pipeline.png)

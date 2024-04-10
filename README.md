@@ -24,6 +24,4 @@ Data Source:
 ```
 
 One of the transformation pipeline:
-![alt text]([http://url/to/img.png](https://github.com/Bhuvan421/covid19-outbreak-analysis/blob/8249afabb1ca67274d797ab91580dcd5cc5a60c5/hospital-data-transformation-pipeline.png))
-
 ![alt text](hospital-data-transformation-pipeline.png)

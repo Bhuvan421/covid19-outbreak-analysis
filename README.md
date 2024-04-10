@@ -6,7 +6,7 @@ Data Source:
 * Built multiple data transformation pipelines using Azure Data Flow, HDInsights pipelines using Hive and Azure Databricks pipelines using PySqark and stored the data in Azure SQL database for downstream analytics.
 * Published the data to Microsoft PowerBI and built auto refreshing dynamic dashboards.
 * Created alerts, monitored the data flow using Azure Monitor and Log Analytics, and built error monitoring workbooks using Kusto Query Language (KQL) to analyze trigger/pipeline runs, memory/compute usage by each resource and so on.
-* Utilized Azure DevOps/Git to maintain continuous integration, continuous delivery and continous monitoring/improvements throughout the project.
+* Utilized Azure DevOps/Git to maintain continuous integration, continuous delivery and continuous monitoring/improvements throughout the project.
 * Automated both the data ETL and CI/CD integration to dev (build), test (validation) and prod (empty) environments using Npm package build pipeline, pre/post deployment scripts in release pipelines and automatically generating ARM template for continuous deployment in test/prod.
 
 #### Tech Stack used:
